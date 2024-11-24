@@ -1,0 +1,68 @@
+.separator {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-silver);
+}
+.component2Parent,
+.componentLayout,
+.nestedSeparator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nestedSeparator {
+  width: 205.9px;
+  margin: 0 !important;
+  position: absolute;
+  top: 48px;
+  right: -21.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.component2Parent,
+.componentLayout {
+  flex-direction: column;
+}
+.componentLayout {
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 2px;
+}
+.component2Parent {
+  gap: 17px;
+}
+.nestedSeparator1 {
+  width: 205.9px;
+  margin: 0 !important;
+  position: absolute;
+  right: -21.9px;
+  bottom: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.nestedSeparator1,
+.nestedSeparatorParent,
+.root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nestedSeparatorParent {
+  flex-direction: row;
+  position: relative;
+}
+.root {
+  width: 240px;
+  height: 760px;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xs) 426px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

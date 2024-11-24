@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Akatab:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-akatab: Akatab;
+  --font-inter: Inter;
+  --font-abril-fatface: "Abril Fatface";
+
+  /* font sizes */
+  --font-size-mini-9: 14.9px;
+  --font-size-mini: 15px;
+  --font-size-base-3: 15.3px;
+  --font-size-base-1: 15.1px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+  --font-size-45xl: 64px;
+  --font-size-8xl-7: 27.7px;
+  --font-size-3xl: 22px;
+  --font-size-9xl-6: 28.6px;
+  --font-size-4xl: 23px;
+  --font-size-xl-3: 20.3px;
+
+  /* Colors */
+  --gray-900: #141414;
+  --color-gray-100: rgba(0, 0, 0, 0);
+  --neutral-white: #fff;
+  --color-silver: rgba(185, 191, 198, 0.3);
+  --color-slategray: #73808c;
+  --neutral-black: #000;
+  --miscellaneous-sidebar-text-selected: #007aff;
+  --color-ghostwhite-100: #f3f5f9;
+  --color-dimgray-100: #596573;
+  --color-dimgray-200: #576372;
+  --color-dimgray-300: #556170;
+  --color-darkgray: #a0a6b4;
+  --color-gainsboro: #d9dbe0;
+  --color-lavender: #d1dbea;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-xl: 20px;
+  --gap-7xl: 26px;
+  --gap-29xl: 48px;
+  --gap-5xl: 24px;
+  --gap-mini: 15px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-lgi: 19px;
+  --gap-11xl-5: 30.5px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-15xl: 34px;
+  --padding-447xl: 466px;
+  --padding-xs: 12px;
+  --padding-4xl: 23px;
+  --padding-8xl: 27px;
+  --padding-9xl: 28px;
+  --padding-5xl: 24px;
+  --padding-58xl: 77px;
+  --padding-19xl: 38px;
+  --padding-59xl: 78px;
+  --padding-mini: 15px;
+  --padding-111xl: 130px;
+  --padding-2xl: 21px;
+  --padding-8xs: 5px;
+  --padding-112xl: 131px;
+  --padding-10xs: 3px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-lg: 18px;
+  --padding-253xl: 272px;
+  --padding-257xl: 276px;
+  --padding-3xs: 10px;
+
+  /* Border radiuses */
+  --br-9980xl: 9999px;
+  --br-80xl: 99px;
+  --br-smi: 13px;
+  --br-3xs: 10px;
+  --br-10xs: 3px;
+}

@@ -1,0 +1,148 @@
+.background,
+.background1 {
+  position: absolute;
+  top: 324px;
+  left: 120px;
+  width: 1200px;
+  height: 1200px;
+}
+.background {
+  top: 0;
+  left: 0;
+  background-color: var(--neutral-white);
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  mix-blend-mode: overlay;
+}
+.wonderpay {
+  width: 996px;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageIcon {
+  width: 86px;
+  position: relative;
+  height: 68px;
+  object-fit: cover;
+}
+.byWonderlandStudio {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.16em;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-family: var(--font-akatab);
+}
+.frame,
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.frame {
+  position: absolute;
+  top: 76px;
+  left: 222px;
+  width: 996px;
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 37px 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+  color: var(--neutral-black);
+  font-family: var(--font-abril-fatface);
+}
+.wonderpayByWonderland {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.frame1 {
+  position: absolute;
+  top: 375px;
+  left: 269px;
+  width: 863px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--font-size-base);
+  color: var(--gray-900);
+  font-family: var(--font-inter);
+}
+.inquire {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+}
+.button {
+  border-radius: var(--br-80xl);
+  background-color: var(--miscellaneous-sidebar-text-selected);
+  padding: var(--padding-xs) var(--padding-5xl);
+}
+.button,
+.wrap1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame2 {
+  position: absolute;
+  top: 0;
+  left: 731px;
+  width: 102px;
+  height: 514px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+}
+.button1,
+.frame2,
+.frame3 {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  border-radius: var(--br-80xl);
+  background-color: var(--neutral-black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 596px;
+  width: 96px;
+  height: 514px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-white);
+  height: 900px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--neutral-white);
+  font-family: var(--font-akatab);
+}
